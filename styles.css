@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.profile {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #fff;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffda79;
+}
+
+.section {
+    padding: 60px 0;
+    background-color: #f7f8fa;
+}
+
+.section:nth-child(odd) {
+    background-color: #fff;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.2rem;
+    color: #333;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+
+.section h2:after {
+    content: '';
+    width: 50px;
+    height: 5px;
+    background: #6a11cb;
+    display: block;
+    margin: 10px auto;
+}
+
+.section p, .section ul {
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #555;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    color: #444;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 0;
+    background: #6a11cb;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
+
+.internship, .project {
+    background: #f0f4f8;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    text-align: left;
+}
+
+.internship h3, .project h3 {
+    color: #2575fc;
+    margin-bottom: 15px;
+}
+
+.internship ul, .project ul {
+    text-align: left;
+}
+
+#contact a {
+    color: #2575fc;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#contact a:hover {
+    color: #6a11cb;
+}
