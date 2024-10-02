@@ -3,157 +3,216 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bharani Reddy | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Bharani Reddy - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .header p {
+            margin: 5px 0;
+            font-size: 1.2em;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        ul li i {
+            color: #4CAF50;
+            margin-right: 10px;
+        }
+        .internship, .project, .achievement, .volunteer {
+            margin-bottom: 20px;
+        }
+        .edu-details, .skill-details, .internship-details, .project-details, .volunteer-details, .achievement-details {
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="profile">
-                <img src="profile.jpg" alt="Bharani Reddy" class="profile-img">
-                <h1>Bharani B</h1>
-                <p>Software Engineer | Cloud & DevOps Enthusiast</p>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#interships">Internships</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#certifications">Certifications</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+    <header class="header">
+        <h1>Bharani Reddy</h1>
+        <p>Software Engineer | Salesforce Developer | Mentor</p>
     </header>
 
-    <section id="about" class="section">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Motivated software engineer with a deep understanding of network infrastructures and cloud technologies. Proficient in DevOps practices, CI/CD pipelines, and data science techniques. Currently mentoring at THEMom Project and pursuing a Master's in DevOps and Cloud Development.</p>
+    <!-- About Me Section -->
+    <section class="about">
+        <h2>About Me</h2>
+        <p>I am a motivated software engineer with a passion for developing innovative programs. I have experience working with a range of technologies including Salesforce, Python, and Java. Currently, I am mentoring at THEMom Project while pursuing a master’s in DevOps and Cloud Development. I thrive in dynamic environments where I can constantly learn and apply my skills in both individual and team settings.</p>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education">
+        <h2>Education</h2>
+        <div class="edu-details">
+            <h3>B.Tech/B.E - KSS Engineering College</h3>
+            <p>CGPA: 9.13/10 | Graduated: 2024</p>
+        </div>
+        <div class="edu-details">
+            <h3>Master’s in DevOps & Cloud Development - Code First Girls</h3>
+            <p>Sponsored by Unilever | In Progress</p>
+        </div>
+        <div class="edu-details">
+            <h3>Software Engineering - Code First Girls</h3>
+            <p>Sponsored by Unilever | Completed 2024</p>
         </div>
     </section>
 
-    <section id="education" class="section">
-        <div class="container">
-            <h2>Education</h2>
+    <!-- Skills Section -->
+    <section class="skills">
+        <h2>Skills</h2>
+        <div class="skill-details">
             <ul>
-                <li>B.Tech in Computer Science and Engineering - KSS Engineering College, Bangalore - 9.13 CGPA (2024)</li>
-                <li>Software Engineering Course - Code First Girls, sponsored by Unilever</li>
-                <li>Master's in DevOps and Cloud Development - Code First Girls, sponsored by Unilever</li>
-                <li>Class XII - Narayana P.U College - 78.13% (2020)</li>
-                <li>Class X - S.V.V.M - 88.13% (2018)</li>
+                <li><i class="fas fa-code"></i> Programming: Python, Java, C++, HTML, CSS, JavaScript</li>
+                <li><i class="fas fa-cloud"></i> Cloud Technologies: AWS, Microsoft Azure, Docker</li>
+                <li><i class="fas fa-database"></i> Databases: MySQL, PostgreSQL, MongoDB</li>
+                <li><i class="fas fa-tools"></i> DevOps: CI/CD, Jenkins, Kubernetes</li>
+                <li><i class="fas fa-chart-bar"></i> Data Analysis: Pandas, NumPy, Power BI</li>
+                <li><i class="fas fa-laptop-code"></i> Salesforce Development: Apex, Visualforce, Lightning</li>
             </ul>
         </div>
     </section>
 
-    <section id="interships" class="section">
-        <div class="container">
-            <h2>Internships</h2>
-            <div class="internship">
-                <h3>Salesforce Administrator - Virtual Internship (2023)</h3>
+    <!-- Internships Section -->
+    <section class="internships">
+        <h2>Internships</h2>
+        <div class="internship">
+            <h3>Salesforce Developer - Virtual Internship</h3>
+            <div class="internship-details">
+                <p>Developed Apex classes and triggers, integrated external systems using APIs, and worked on Visualforce and Lightning components.</p>
+            </div>
+        </div>
+        <div class="internship">
+            <h3>Knowledge Solutions India</h3>
+            <div class="internship-details">
+                <p>Engaged in data analysis using Python and SQL, including predictive modeling, creating insightful data visualizations, and contributing to strategic decision-making.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>WanderIndia</h3>
+            <div class="project-details">
                 <ul>
-                    <li>Configured Salesforce Sales and Service Cloud, including organizational setup, user management, and security settings.</li>
-                    <li>Automated business processes using workflows, approval processes, and process builder.</li>
-                    <li>Created custom reports and dashboards for actionable insights.</li>
+                    <li>Developed a travel website showcasing India's cultural heritage, tourist destinations, and cuisine.</li>
+                    <li>Utilized Flask for backend development, ensuring fast and reliable routing between different sections.</li>
+                    <li>Interactive map feature allows users to explore popular tourist destinations in India.</li>
+                    <li>Integrated Google Maps API for better user interaction and navigation.</li>
                 </ul>
             </div>
-            <div class="internship">
-                <h3>Salesforce Developer - Virtual Internship (2023)</h3>
+        </div>
+        <div class="project">
+            <h3>Indian Currency Recognition System</h3>
+            <div class="project-details">
                 <ul>
-                    <li>Developed Apex classes, triggers, and Lightning Web Components to customize Salesforce functionality.</li>
-                    <li>Integrated external systems with Salesforce using REST and SOAP APIs.</li>
-                    <li>Conducted unit testing and debugging to ensure code quality and functionality.</li>
+                    <li>Created a machine learning-based system to recognize Indian currency notes aimed at assisting visually impaired individuals.</li>
+                    <li>Trained using OpenCV and TensorFlow, with an accuracy rate of over 95%.</li>
+                    <li>Implemented real-time object detection via webcam integration.</li>
                 </ul>
             </div>
-            <div class="internship">
-                <h3>Knowledge Solutions India - Data Science Intern (2023)</h3>
+        </div>
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <div class="project-details">
                 <ul>
-                    <li>Applied advanced data science techniques to analyze and manipulate large datasets.</li>
-                    <li>Led data collection and cleaning efforts for accurate analysis.</li>
-                    <li>Used Python and SQL for statistical analysis and predictive modeling.</li>
+                    <li>Designed and developed a personal portfolio website showcasing my professional experiences and projects.</li>
+                    <li>Used HTML, CSS, and JavaScript to ensure a responsive, user-friendly interface.</li>
+                    <li>Deployed the website using GitHub Pages for global access and easy sharing.</li>
                 </ul>
             </div>
         </div>
     </section>
 
-    <section id="skills" class="section">
-        <div class="container">
-            <h2>Skills</h2>
-            <ul>
-                <li>Programming Languages: Python, Java, SQL, C++</li>
-                <li>Data Analysis & Visualization: Pandas, NumPy, scikit-learn, Power BI</li>
-                <li>Salesforce: Apex, Lightning Web Components, REST/SOAP APIs</li>
-                <li>Cloud Technologies: AWS, Microsoft Azure</li>
-                <li>DevOps: CI/CD, Agile Methodologies, Jira</li>
-                <li>Web Development: HTML5, CSS3, JavaScript, Angular, React</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="certifications" class="section">
-        <div class="container">
-            <h2>Certifications</h2>
-            <ul>
-                <li>Certified Scrum Master (CSM)</li>
-                <li>AWS Certified DevOps Engineer Professional</li>
-                <li>AZ-900: Microsoft Azure Fundamentals</li>
-                <li>Python (Basic), Java (Basic), SQL (Advanced) - HackerRank</li>
-                <li>Artificial Intelligence & Machine Learning for Business</li>
-                <li>Google Cloud Platform - 30 Days of Cloud</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="projects" class="section">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Predict Income of Individuals in the US</h3>
+    <!-- Volunteering Section -->
+    <section class="volunteering">
+        <h2>Volunteering Experience</h2>
+        <div class="volunteer">
+            <h3>Mentor - THEMom Project</h3>
+            <div class="volunteer-details">
                 <ul>
-                    <li>Developed a predictive model using Gradient Boosting Regressor to forecast income levels.</li>
-                    <li>Implemented feature engineering and model evaluation to enhance accuracy.</li>
-                </ul>
-            </div>
-            <div class="project">
-                <h3>Supermarket Management System</h3>
-                <ul>
-                    <li>Designed an inventory and sales management system using Java and MySQL.</li>
-                    <li>Implemented algorithms for efficient business operations and user-friendly interfaces.</li>
-                </ul>
-            </div>
-            <div class="project">
-                <h3>Indian Currency Recognition System for Visually Impaired People</h3>
-                <ul>
-                    <li>Developed a machine learning-based system using TensorFlow and OpenCV for currency recognition.</li>
-                    <li>Implemented deep learning algorithms to assist visually impaired individuals.</li>
-                </ul>
-            </div>
-            <div class="project">
-                <h3>Wander India</h3>
-                <ul>
-                    <li>Developed a comprehensive website highlighting tourism in India.</li>
-                    <li>Included a dynamic map-based interface for viewing places and associated food details.</li>
+                    <li>Mentoring young women in technology, offering guidance and support in software engineering and cloud development.</li>
+                    <li>Helping mentees develop essential technical and soft skills for their careers.</li>
                 </ul>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>LinkedIn: <a href="https://linkedin.com/in/bharani-b-753796211">linkedin.com/in/bharani-b</a></p>
-            <p>Email: <a href="mailto:balakabharanireddy@gmail.com">balakabharanireddy@gmail.com</a></p>
+    <!-- Achievements Section -->
+    <section class="achievements">
+        <h2>Achievements</h2>
+        <div class="achievement">
+            <h3>Code First Girls - 2023</h3>
+            <div class="achievement-details">
+                <ul>
+                    <li>Completed the Software Engineering course sponsored by Unilever, showcasing top performance and dedication.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="achievement">
+            <h3>First Place - Hackathon 2023</h3>
+            <div class="achievement-details">
+                <ul>
+                    <li>Led a team to victory in a regional hackathon by developing a real-time collaborative platform for students.</li>
+                </ul>
+            </div>
         </div>
     </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Bharani Reddy | Portfolio</p>
-        </div>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>Connect with me: <a href="https://linkedin.com/in/bharani-b">LinkedIn</a></p>
+        <p>Website: <a href="#">YourWebsiteLink.com</a></p>
     </footer>
 </body>
 </html>
